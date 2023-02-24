@@ -47,7 +47,7 @@ jobs:
         with:
           php_version: '8.2'
           version: '2'
-          args: no-dev
+          args: --optimize-autoloader --no-dev
 
 # Please do not touch the following action
       - name: Store deployment content
